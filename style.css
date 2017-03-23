@@ -34,6 +34,7 @@ img{
 	height:auto;
 	width: auto;
 }
+
 /*Top left logo style*/
 #logo{
 	margin:	20px;
@@ -58,6 +59,7 @@ nav{
 	float:right;
 	padding: 25px 20px 0 0; 
 }
+
 ul{
 	list-style-type: none;
 }
@@ -78,4 +80,13 @@ nav ul li a:hover{
 }
 .current{
 	color:#C3D7DF;
+}
+/*Banner style*/
+.banner{
+	width:100%;
+	background-color: black;
+}
+.banner-wrapper{
+	max-width: 1100px;
+	margin: 0 auto;
 }
