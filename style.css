@@ -90,3 +90,23 @@ nav ul li a:hover{
 	max-width: 1100px;
 	margin: 0 auto;
 }
+/*Tile links*/
+.one-third{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+.one-third i{
+	color:#E1E1E1;
+	font-size: 250%;
+	padding: 10% 0 5% 0; /*top=10%, bottom=5% */
+}
+#downloads{
+	background-color: #AAAAAA;
+}
+#publications{
+	background-color:#BBBBBB;
+}
+#code{
+	background-color: #CCCCCC;
+}
