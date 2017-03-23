@@ -18,13 +18,15 @@ h2{
 	font-size: 250%;
 	font-weight: 650;
 	text-align: center;
+	color : #F5F5F5;
 }
 
 h3{
 	font-size: 175%;
 	font-weight: 350;
 	text-align: center;
-	/*line-height:150%;*/
+	line-height:150%;
+	color : #F5F5F5;
 }
 
 p{
@@ -32,6 +34,7 @@ p{
 	font size:150%;
 	padding: 3%;
 	text-align: justify;
+	color : #F5F5F5;
 }
 
 img{
@@ -50,7 +53,7 @@ img{
 
 /*header style*/
 header{
-	background-color: #7882BD;
+	background-color: #FF5A09;
 	width: 100%;
 	height:	80px;
 }
@@ -89,7 +92,7 @@ nav ul li a:hover{
 /*Banner style*/
 .banner{
 	width:100%;
-	background-color: black;
+	background-color: #6e6e6e;
 }
 .banner-wrapper{
 	max-width: 1100px;
@@ -107,13 +110,13 @@ nav ul li a:hover{
 	padding: 10% 0 5% 0; /*top=10%, bottom=5% */
 }
 #downloads{
-	background-color: #AAAAAA;
+	background-color: #FF5A09;
 }
 #publications{
-	background-color:#BBBBBB;
+	background-color:#F3843E;
 }
 #code{
-	background-color: #CCCCCC;
+	background-color: #FF9900;
 }
 
 article{
@@ -133,9 +136,13 @@ aside{
 .wrapper-one{
 	float:left;
 	width: 100%;
-	background-color:#AAAAAA;
+	background-color:#6e6e6e;
 }
-
+.wrapper-two{
+	float:left;
+	width:100%;
+	background-color:#6e6e6e;
+}
 article{
 	float:left;
 	width: 50%;
@@ -143,13 +150,13 @@ article{
 }
 
 #itl-text{ 
-	background-color: #BBBBBB;
+	background-color: #FF5A09;
 }
 #module-text{
-	background-color: #FFFFFF;
+	background-color: #F3843E;
 }
 #tempura-text{
-	background-color: #FFFFFF;
+	background-color: #FF9900;
 }
 aside{
 	float:right;
@@ -157,16 +164,13 @@ aside{
 	height:auto;
 	width: 50%;
 }
-.wrapper-two{
-	float:left;
-	width:100%;
-	background-color:#AAAAAA;
-}
+
 /*Footer*/
+
 footer.copyright{
 	max-height: 55px
-	border-top: 2px solid #000000;
-	background-color: #7882BD;
+	border-top: 2px solid #393939;
+	background-color: #6e6e6e;
 	text-align: center;
 }
 footer.copyright p{
