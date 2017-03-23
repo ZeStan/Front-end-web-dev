@@ -86,8 +86,16 @@ nav ul li a{
 nav ul li a:hover{
 	color : #C3D7DF;
 }
+
 .current{
 	color:#C3D7DF;
+}
+
+#menu-icon{
+	display: none;
+	color: #F5F5F5;
+
+
 }
 /*Banner style*/
 .banner{
@@ -177,4 +185,68 @@ footer.copyright p{
 	padding: 5px 0 9px 0;
 	text-align: center;
 
+}
+/***Media****/
+
+@media screen and (max-width: 768px){
+	nav ul, nav:active ul {
+		display: none;
+		z-index:9999;
+		position: absolute;
+		padding: 20px;
+		background: #6991AC;
+		right: 20px;
+		top:60px;
+		border:1px solid #FFF;
+		border-radius: 10px 0 10px 10px;
+
+	}
+	nav:hover ul{
+		display: block;
+	}
+	nav li{
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
+
+	}
+
+	h2{
+		font-size: 150%;
+	}
+
+	h3{
+		font-size: 125%;
+	}
+
+	p{
+		font-size: 120%;
+	}
+	header{
+		position: absolute;
+	}
+	#menu-icon{
+		display:inline-block;
+		font-size: 300%;
+	}
+	.banner{
+		padding-top:85px;
+	}
+	.one-third{
+		float:left;
+		width: 100%;
+	}
+	.one-third i{
+		font-size: 350%;
+		padding:4% 0 1% 0;
+	}
+	article{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+	.mobile-remove{
+		display: none;
+	}
 }
